@@ -1,0 +1,77 @@
+# ============================================
+# Archivos sensibles (NO subir al repositorio)
+# ============================================
+credentials.json
+token.json
+.env
+
+# Mantener el archivo ejemplo
+!.env.example
+
+
+# ============================================
+# Cachés de Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Paquetes instalados
+*.egg-info/
+dist/
+build/
+.eggs/
+
+
+# ============================================
+# Virtual environments
+# ============================================
+venv/
+env/
+ENV/
+.venv/
+.env/
+.python-version
+
+
+# ============================================
+# Archivos de Jupyter Notebook
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_convert
+*.nbconvert/
+
+
+# ============================================
+# Archivos temporales del sistema
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================
+# Archivos de log o salida temporal
+# ============================================
+*.log
+*.tmp
+
+
+# ============================================
+# Archivos de VSCode
+# ============================================
+.vscode/
+*.code-workspace
+
+
+# ============================================
+# Archivos de herramientas comunes
+# ============================================
+*.sqlite3
+*.db
+*.lock
+
+
+# ============================================
+# Otros archivos que no deben subirse
+# ============================================
+token.pickle
